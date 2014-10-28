@@ -1,4 +1,4 @@
-#Bash script runner for Python
+#linux/unix commands runner for Python
 
 ## Overview
 **python-bash**, simple python script for using linux/unix commnds
