@@ -1,4 +1,4 @@
-from .bash import *
+from .commands import *
 
 print('This is for python study')
 print('imported list')

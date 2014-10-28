@@ -1,12 +1,12 @@
 import os
 
-def bash(f):
-        def bash_wrapper(*args, **kwargs):
+def deco(f):
+        def deco_wrapper(*args, **kwargs):
             print('wrapper :' + str(*args))
             return os.system(f(*args, **kwargs))
-        return bash_wrapper
+        return deco_wrapper
 
-@bash
+@deco
 def ls(args=None):
     print('ls ' + str(args))
     if args is not None:
@@ -21,7 +21,9 @@ def cd(path):
     os.chdir(path)
     print('$'+str(os.getcwd()))
 
-@bash
+@deco
 def md(args):
     return 'mkdir {args}'.format(args=args)
 
+def tree():
+    os.sysmte('tree')
