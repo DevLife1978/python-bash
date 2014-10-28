@@ -5,7 +5,7 @@
 
 ### using
 
-from bash import *
+from commands import *
 
 ...information printed
 
