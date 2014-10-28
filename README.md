@@ -1,7 +1,7 @@
 #Bash script runner for Python
 
 ## Overview
-**python-bash**, simple python script for using bash
+**python-bash**, simple python script for using linux/unix commnds
 
 ### using
 
